@@ -1,3 +1,10 @@
+:root {
+  --primary: #129576;
+  --secondary: #f8f8f8;
+  --primary-accent: #00c29d;
+}
+
+
 html,
 body {
   padding: 0;
@@ -13,4 +20,5 @@ a {
 
 * {
   box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
