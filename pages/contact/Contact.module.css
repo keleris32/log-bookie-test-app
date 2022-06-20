@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper {
+    width: 400px;
+    margin-top: 5em;
+}
+
+.wrapper > h3 {
+    text-align: center;
+}
+
+.detailsContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detailsHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+
+.icon {
+    color: var(--primary-accent);
+    margin-right: .5em;
+}
+
+.details > li {
+    list-style-type: none;
+}
+
