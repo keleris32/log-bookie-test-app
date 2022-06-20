@@ -1,0 +1,27 @@
+.container {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary);
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 768px;
+    /* background-color: red; */
+}
+
+.wrapper > div:first-child {
+    position: absolute;
+    left: 0;
+}
+
+.footerMenu {
+    display: flex;
+    gap: 2.5em;
+    margin-left: 6em;
+}
